@@ -8,6 +8,7 @@ h1 {
     font-size: 111px;
     text-align: center;
     margin-bottom: 10px;
+    margin-top: 180px;
 }
 
 img {
@@ -44,9 +45,11 @@ img {
 
 .subtitle {
     font-size: 29px;
+    width: 473px;
+    height: 47px;
     font-weight: 700;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .areaBotao {
@@ -54,3 +57,21 @@ img {
     justify-content: center;    
 }
 
+@media (max-width: 480px) {  
+    .main { 
+        grid-template-columns: 100%; 
+        gap: 0px;
+        padding: 15px
+    }
+    h1 {
+        font-size: 53px;
+        margin-top: 0px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+    img {
+        width: 271px;
+        height: 416px;;      
+    }
+}
