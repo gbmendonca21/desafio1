@@ -1,0 +1,56 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+h1 {
+    color: #000000;
+    font-size: 111px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+img {
+    width: 431px;
+    height: 661px;
+    top: 51px;
+    right: 212px;
+}
+
+.button {
+    background-color: #3EB25E;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    width: 199px;
+    padding: 5px 0px;
+    font-weight: 700;
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #FFFF7D;
+    color:#000000;     
+}
+
+.main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 80px;
+    padding: 51px 84px 48px 212px;
+}
+
+.subtitle {
+    font-size: 29px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.areaBotao {
+    display: flex;
+    justify-content: center;    
+}
+
