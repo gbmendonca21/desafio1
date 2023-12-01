@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tela 3 PB</title>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="styles-pag3.css">   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        <main class="main">
+            <section>
+                <img class="img" src="tela3.svg" alt="personagem2"/>
+            </section>
+            
+            <section>
+            <h1 class="h1">What is the status of your account?</h1> 
+            <form id="formulario">    
+                <select name="opcoes" class="lista" required>
+                    <option value="">--Selecione--</option>
+                    <option value="texto1">Text 1</option>
+                    <option value="texto2">Text 2</option>
+                    <option value="texto3">Text 3</option>
+                </select>
+
+                <p class="subtitle">In which financial markets do you operate?</p>
+                
+                <label class="labelMarket">
+                    <input id="inputMarket" type="radio" name="market" value="" required>
+                    <div class="radioImg"></div>
+                    <label>stock market</label><br>
+                </label> 
+            
+                <label  class="labelMarket">
+                    <input id="inputMarket" type="radio" name="market" value="">
+                    <div class="radioImg"></div>
+                    <label>foreign exchange</label><br>
+                </label> 
+
+                <label  class="labelMarket">
+                    <input id="inputMarket" type="radio" name="market" value="">
+                    <div class="radioImg"></div>
+                    <label>commodity</label><br>
+                </label> 
+
+                <label  class="labelMarket">
+                    <input id="inputMarket" type="radio" name="market" value="">
+                    <div class="radioImg"></div>
+                    <label>bond market</label><br>
+                </label> 
+
+                <label  class="labelMarket">
+                    <input id="inputMarket" type="radio" name="market" value=""> 
+                    <div class="radioImg"></div>
+                    <label>cryptocurrency market</label><br>
+                </label> 
+
+                <div class="areaBotao"><a href="pag2.html" class="button">Back</a></div> 
+                <input type="submit" id="botaoNext" value="Next" class="button areaBotao"><br>
+                <div class="areaBotao"><a href="pag4.html" class="button buttonSkip">Skip</a></div>
+                 
+            </form>
+            </section>            
+        </main>      
+        <script src="tela3.js"></script>
+    </body>
+</html>
