@@ -1,0 +1,138 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto';
+}
+
+.img {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.main { 
+    display: flex;
+    justify-content: center; 
+    gap: 80px;
+    margin-top: 100px;
+}
+
+.subtitle {
+    font-size: 26px;
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 30px;
+    margin-top: 30px;   
+}
+
+.button {
+    background-color: #3EB25E;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    width: 418px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    margin-bottom: 15px;
+}
+
+.button:hover {
+    background-color: #FFFF7D;
+    color:#000000;     
+}
+
+.texto{
+    display: flex;
+    text-align: left;
+    width: 459px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    font-size: xx-large;
+}
+
+.textoAge {
+    width: 152px;
+    text-align: center;
+}
+
+.texto::placeholder{
+    opacity: 0.5;
+    }
+    
+@media (max-width: 480px) {  
+    .main { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .img {
+        width: 374px;
+        height: 353px;;      
+    }
+
+    .texto{
+        width: 278px;
+        height: 33px;
+        font-size: large;
+    }
+
+    .textoAge {
+        width: 111px;
+        text-align: center;
+    }
+
+    .button{
+        width: 302px;
+        height: 26px;
+    }
+    
+}
+
+@media (max-width: 320px) {  
+    .main { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .subtitle {
+        font-size: 16px;
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .img {
+        width: 300px;
+        height: 330px;;      
+    }
+
+    .texto{
+        width: 278px;
+        height: 33px;
+        font-size: large;
+    }
+
+    .textoAge {
+        width: 111px;
+        text-align: center;
+    }
+
+    .button{
+        width: 230px;
+        height: 26px;
+    }
+
+}
