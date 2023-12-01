@@ -1,0 +1,83 @@
+* {
+    text-decoration: none;
+    font-family: 'Roboto';
+}   
+
+.h1 {
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 111px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 456px;
+    height: 106px;
+}
+
+.img {
+    width: 431px;
+    height: 661px;
+}
+
+.main { 
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    width: 100dvw;
+    height: 100dvh;
+}
+
+.subtitle {
+    font-size: 29px;
+    width: 473px;
+    height: 47px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.button {
+    background-color: #3EB25E;
+    color: #fff;
+    border-radius: 35px;
+    border: none;
+    width: 199px;
+    padding: 5px 0px;
+    font-weight: 700;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: #FFFF7D;
+    color:#000000;     
+}
+
+.areaBotao {
+    display: flex;
+    justify-content: center;    
+}
+
+@media (max-width: 480px) {  
+    .main { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+    }
+    .h1 {
+        font-size: 53px;
+        margin-top: 0px;
+    }
+    .subtitle {
+        font-size: 24px;
+    }
+    .img {
+        width: 271px;
+        height: 416px;;      
+    }
+}
