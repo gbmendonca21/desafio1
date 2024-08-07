@@ -27,7 +27,6 @@
     justify-content: center; 
     gap: 80px;
     margin-top: 100px;
-    padding-left: 70px;
 }
 
 .subtitle {
@@ -73,7 +72,7 @@
 }
 
 .lista {
-    padding-inline: 170px;
+    padding-inline: 150px;
     border-radius: 10px;
     font-size: 26px;
     text-align-last: center;
@@ -91,21 +90,22 @@ label{
     display: flex;  
 }
 
-input[type= "checkbox"]{
+input[type= "radio"]{
     display: none;  
 }
 
-input[type= "checkbox"]:checked + .boxImg::before{
-    content: url("boxverdeescuro.svg");  
+input[type= "radio"]:checked + .radioImg::before{
+    content: url("/images/radioverdeescuro.svg");  
 }
 
 #inputMarketImg{
     cursor: pointer;
 }
 
-.boxImg::before {
-    content: url("boxverde.svg");
+.radioImg::before {
+    content: url("/images/radioverde.svg");
 }
+
 
 @media (max-width: 480px) {  
     .main { 
@@ -133,6 +133,7 @@ input[type= "checkbox"]:checked + .boxImg::before{
     
     .img {
         width: 360px;
-        height: 340px;;      
-    }
+        height: 344px;;      
+    }    
+    
 }
